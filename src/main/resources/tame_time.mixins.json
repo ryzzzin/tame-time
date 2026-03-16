@@ -3,6 +3,7 @@
 	"package": "dev.rysin.tametime.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"FoxTamingMixin",
 		"RabbitTamingMixin"
 	],
 	"injectors": {

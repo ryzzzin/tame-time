@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "dev.rysin.tametime.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"RabbitTamingMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

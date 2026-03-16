@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "tame_time",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Tame Time",
+	"description": "A Minecraft mod called Tame Time.",
 	"authors": [
-		"Me!"
+		"rysin"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/rysin/tame-time"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/tame_time/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"dev.rysin.tametime.TameTimeMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"dev.rysin.tametime.TameTimeModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"tame_time.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "tame_time.client.mixins.json",
 			"environment": "client"
 		}
 	],
